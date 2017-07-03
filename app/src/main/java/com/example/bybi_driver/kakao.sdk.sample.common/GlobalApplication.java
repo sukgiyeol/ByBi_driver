@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.bybi.kakao.sdk.sample.common;
+package com.example.bybi_driver.kakao.sdk.sample.common;
 
 import android.app.Activity;
 import android.app.Application;

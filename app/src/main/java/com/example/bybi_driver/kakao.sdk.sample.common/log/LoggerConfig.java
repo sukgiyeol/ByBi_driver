@@ -1,5 +1,5 @@
 
-package com.example.bybi.kakao.sdk.sample.common.log;
+package com.example.bybi_driver.kakao.sdk.sample.common.log;
 
 import android.util.Log;
 

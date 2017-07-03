@@ -1,4 +1,4 @@
-package com.example.bybi;
+package com.example.bybi_driver;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -75,10 +75,10 @@ public class MainActivity extends MOMLActivity {
     }
 
     protected void redirectSignupActivity() {       //세션 연결 성공 시 SignupActivity로 넘김
-//        final Intent intent = new Intent(this, SuccessActivity.class);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-//        startActivity(intent);
-//        finish();
+        final Intent intent = new Intent(this, InfoActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivity(intent);
+        finish();
     }
 
 
@@ -100,9 +100,9 @@ public class MainActivity extends MOMLActivity {
             public void onSuccess(UserProfile userProfile) {
                 Log.e("UserProfile ", userProfile.toString());
 
-//                Intent intent = new Intent(MainActivity.this, SuccessActivity.class);
-//                startActivity(intent);
-//                finish();
+                Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+                startActivity(intent);
+                finish();
             }
 
             @Override

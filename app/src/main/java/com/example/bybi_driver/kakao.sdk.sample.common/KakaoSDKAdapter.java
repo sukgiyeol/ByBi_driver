@@ -1,4 +1,4 @@
-package com.example.bybi.kakao.sdk.sample.common;
+package com.example.bybi_driver.kakao.sdk.sample.common;
 
 import android.app.Activity;
 import android.content.Context;

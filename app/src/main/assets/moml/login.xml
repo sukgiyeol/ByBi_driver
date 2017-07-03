@@ -11,7 +11,7 @@
 		<CMD condition="userVariable.aniValue == 'false'" cmd="animation.show('googleBtn', 'fade', '', 1000, '')" delay="100" />
 		<CMD condition="userVariable.aniValue == 'false'" cmd="animation.show('mailBtn', 'fade', '', 1000, '')" delay="100" />
 		<CMD condition="userVariable.aniValue == 'false'" cmd="animation.show('footLabel', 'fade', '', 1000, '')" delay="100" />
-		<CMD cmd="textLabel.text = 'Welcome to'+'\n'+'JeJu'" />
+		<CMD cmd="textLabel.text = 'ByBi'" />
 		<CMD cmd="animation.show('textLabel', 'fade', '', 1500, '')" delay="100" />
 		<CMD cmd="animation.flyIn('bg1', -294, 0, bg1.width, bg1.height, 'reverse', 8000, 'function.aniSecond')" />
 	</FUNCTION>
@@ -19,7 +19,7 @@
 	<FUNCTION id="aniSecond">
 		<CMD cmd="animation.hide('bg1', 'fade', '', 1500, '')" />
 		<CMD cmd="animation.hide('textLabel', 'fade', '', 700, '')" />
-		<CMD cmd="textLabel.text = 'Welcome to'+'\n'+'JeJu'" delay="700" />
+		<CMD cmd="textLabel.text = 'ByBi'" delay="700" />
 		<CMD cmd="animation.show('textLabel', 'fade', '', 700, '')" delay="800" />
 		<CMD cmd="animation.flyIn('bg2', -294, 0, bg1.width, bg1.height, 'reverse', 8000, 'function.aniThird')" delay="200" />
 	</FUNCTION>
@@ -27,7 +27,7 @@
 	<FUNCTION id="aniThird">
 		<CMD cmd="animation.hide('bg2', 'fade', '', 1500, '')" />
 		<CMD cmd="animation.hide('textLabel', 'fade', '', 700, '')" />
-		<CMD cmd="textLabel.text = 'Welcome to'+'\n'+'JeJu'" delay="700" />
+		<CMD cmd="textLabel.text = 'ByBi'" delay="700" />
 		<CMD cmd="animation.show('textLabel', 'fade', '', 700, '')" delay="800" />
 		<CMD cmd="animation.flyIn('bg3', -294, 0, bg1.width, bg1.height, 'reverse', 8000, 'function.aniFourth')" delay="200" />
 	</FUNCTION>
@@ -36,7 +36,7 @@
 		<CMD cmd="userVariable.aniValue = 'true'" />
 		<CMD cmd="animation.hide('bg3', 'fade', '', 1500, '')" />
 		<CMD cmd="animation.hide('textLabel', 'fade', '', 700, '')" />
-		<CMD cmd="textLabel.text = 'Discover ideas for all'+'\n'+'your projects and'+'\n'+'interests'" delay="700" />
+		<CMD cmd="textLabel.text = '5분 더 자'+'\n'+'ByBi가 데려다줄께!'" delay="700" />
 		<CMD cmd="animation.show('textLabel', 'fade', '', 700, '')" delay="800" />
 		<CMD cmd="animation.flyIn('bg4', 0, -570, bg4.width, bg4.height, 'reverse', 8000, 'function.aniFirst')" delay="200" />
 	</FUNCTION>
@@ -50,9 +50,9 @@
 			<IMAGE id="bg2" layout="0,0,1230,1230" defaultImg="res/main_background_2.jpg" />
 			<IMAGE id="bg1" layout="0,0,1230,1230" defaultImg="res/main_background_1.jpg" />
 
-			<LABEL id="textLabel" layout="0,440,720,250" text="{'Welcome To'+'\n'+'JeJu'}" fontSize="60" minFontSize="-1" textAlign="center" textColor="#ffffff" visible="invisible" />
+			<LABEL id="textLabel" layout="0,440,720,250" text="{'ByBi'}" fontSize="60" minFontSize="-1" textAlign="center" textColor="#000000" visible="invisible" />
 
-			<LABEL id="footLabel" layout="0,1133,720,50" text="Have an account? Log In" fontSize="30" minFontSize="-1" textAlign="center" textColor="#ffffff" visible="invisible" />
+			<LABEL id="footLabel" layout="0,1133,720,50" text="Have an account? Log In" fontSize="30" minFontSize="-1" textAlign="center" textColor="#000000" visible="invisible" />
 		</WINDOW>
 	</UILAYOUT>
 </MOML> 
