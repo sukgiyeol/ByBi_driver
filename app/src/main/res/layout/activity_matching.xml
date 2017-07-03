@@ -7,24 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.bybi_driver.StartActivity">
+    tools:context="com.example.bybi_driver.MatchingActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="메인화면"
-        android:id="@+id/textView2"
-        android:layout_marginTop="77dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:text="사용자정보"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="운전 시작하기"
-        android:id="@+id/drive_start"
-        android:background="#7692e1"
-        android:layout_alignParentBottom="true"
+        android:text="맵"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="37dp" />
+        android:layout_marginTop="146dp" />
 </RelativeLayout>

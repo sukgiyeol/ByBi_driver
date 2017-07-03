@@ -13,7 +13,8 @@
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
         android:id = "@+id/license_num"
-        android:hint = "면허증 번호를 입력하세요."
+        android:hint = "라이센스 번호를 입력하세요."
+        android:inputType = "number"
         android:focusable = "true"
         android:layout_marginTop = "46dp"
         android:layout_alignParentLeft = "true"
@@ -26,6 +27,7 @@
         android:layout_height = "wrap_content"
         android:id = "@+id/bike_num"
         android:hint = "바이크 번호를 입력하세요."
+        android:inputType = "number"
         android:layout_marginTop = "96dp"
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
@@ -36,7 +38,8 @@
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
         android:id = "@+id/phone_num"
-        android:hint = "휴대폰번호를 입력하세요."
+        android:hint = "휴대폰 번호를 입력하세요."
+        android:inputType = "number"
         android:layout_marginTop = "146dp"
         android:layout_alignParentLeft = "true"
         android:layout_alignParentStart = "true"
@@ -49,7 +52,7 @@
         android:text="확인"
         android:id="@+id/button"
         android:background="#7692e1"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/phone_num"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp" />
+        android:layout_marginTop="80dp" />
 </RelativeLayout>

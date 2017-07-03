@@ -28,7 +28,12 @@
             android:name=".KakaoSignupActivity"
             android:label="@string/title_activity_kakao_signup" />
         <activity android:name=".InfoActivity" />
-        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".StartActivity" />
+        <activity android:name=".WaitActivity" />
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".MatchingActivity"></activity>
     </application>
 
 </manifest>
