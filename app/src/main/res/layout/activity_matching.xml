@@ -14,20 +14,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
         android:text="부산대 정문 >>> 부산대 상학관"
         android:textSize="20dp"
         android:id="@+id/textView1"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center" />
+        android:layout_alignParentBottom="true" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="박유진 : 01012341234"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="박유진 : 010-1234-1234"
         android:textSize="20dp"
         android:id="@+id/textView3"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center" />
+        android:layout_alignParentBottom="true" />
+
     <mehdi.sakout.fancybuttons.FancyButton
         android:id="@+id/drive_start"
         android:layout_marginTop="20dp"

@@ -35,7 +35,7 @@ public class WaitActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(WaitActivity.this, DialogActivity.class);
-                intent.putExtra("data","부산대 정문 >>> 부산대 상학관" + "\n\n" + "박유진 : 01012341234");
+                intent.putExtra("data","부산대 정문 >>> 부산대 상학관" + "\n\n" + "박유진 : 010-1234-1234");
                 startActivity(intent);
 
             }
