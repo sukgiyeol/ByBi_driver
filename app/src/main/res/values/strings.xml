@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_kakao_login">KakaoLoginActivity</string>
+    <string name="title_activity_success">SuccessActivity</string>
+    <string name="title_activity_kakao_signup">KakaoSignupActivity</string>
 </resources>
