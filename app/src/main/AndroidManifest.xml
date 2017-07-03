@@ -3,6 +3,9 @@
     package="com.example.bybi_driver">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".kakao.sdk.sample.common.GlobalApplication"
@@ -23,6 +26,9 @@
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA6xUFEYPhzepgtGLZE3t2DKG4O5TDj9aI" />
 
         <activity
             android:name=".KakaoSignupActivity"
@@ -32,8 +38,8 @@
         <activity android:name=".WaitActivity" />
         <activity
             android:name=".DialogActivity"
-            android:theme="@android:style/Theme.Dialog"></activity>
-        <activity android:name=".MatchingActivity"></activity>
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".MatchingActivity" />
     </application>
 
 </manifest>

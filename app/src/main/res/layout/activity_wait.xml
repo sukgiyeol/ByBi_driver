@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.bybi_driver.WaitActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사용자를 찾고 있습니다."
+        android:text="사용자 요청 대기중..."
+        android:textSize="18dp"
         android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp" />
+        android:layout_marginTop="200dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="탐색 종료"
-        android:id="@+id/drive_end"
-        android:layout_alignParentBottom="true"
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp" />
+        app:cpv_animAutostart="true"
+        app:cpv_indeterminate="true"
+        android:layout_marginTop="110dp"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/drive_end"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        fancy:fb_borderColor="#ffe9e9"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#ff393d"
+        fancy:fb_focusColor="#ffa1a3"
+        fancy:fb_fontIconResource="&#xf00d;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_text="  탐색 종료"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="25dp"
+        android:layout_alignParentBottom="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="사용자 호출왔을때"
         android:id="@+id/user_call"
-        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

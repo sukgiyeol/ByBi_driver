@@ -71,7 +71,19 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/ByBi_driver/agate/unspecified/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.8.3/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.github.rahatarmanahmed/circularprogressview/2.5.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.2/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.2/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/11.0.2/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.2/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.kakao.sdk/auth/1.1.16/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.kakao.sdk/network/1.1.16/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.kakao.sdk/usermgmt/1.1.16/jars" />
@@ -96,13 +108,25 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="fbutton-1.0.5" level="project" />
     <orderEntry type="library" exported="" name="usermgmt-1.1.16" level="project" />
-    <orderEntry type="library" exported="" name="util-1.1.16" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-23.0.1" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-location-11.0.2" level="project" />
+    <orderEntry type="library" exported="" name="play-services-basement-11.0.2" level="project" />
+    <orderEntry type="library" exported="" name="circularprogressview-2.5.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-maps-11.0.2" level="project" />
+    <orderEntry type="library" exported="" name="fancybuttons-1.8.3" level="project" />
     <orderEntry type="library" exported="" name="circleimageview-2.0.0" level="project" />
     <orderEntry type="library" exported="" name="auth-1.1.16" level="project" />
     <orderEntry type="library" exported="" name="network-1.1.16" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-compat-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-media-compat-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-core-ui-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="util-1.1.16" level="project" />
+    <orderEntry type="library" exported="" name="play-services-tasks-11.0.2" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-core-utils-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-fragment-25.2.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-base-11.0.2" level="project" />
     <orderEntry type="module" module-name="agate" exported="" />
     <orderEntry type="library" exported="" name="agate-unspecified" level="project" />
   </component>

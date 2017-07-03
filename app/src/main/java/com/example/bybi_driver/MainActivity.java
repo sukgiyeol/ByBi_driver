@@ -34,6 +34,9 @@ public class MainActivity extends MOMLActivity {
         MOMLView momlView1 = (MOMLView) findViewById(R.id.momlView1);
         setMomlView(momlView1);
 
+        String[] per = {android.Manifest.permission.ACCESS_FINE_LOCATION};
+        PermissionUtil.checkAndRequestPermission(MainActivity.this, 100, per);
+
         if (getActionBar() != null) {
             getActionBar().setDisplayHomeAsUpEnabled(true);
         }
